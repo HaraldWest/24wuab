@@ -14,7 +14,6 @@
 }
 
 body{
-    border-radius: 20px;
     background-color: #fc0505;
 }
 
@@ -25,6 +24,9 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #d10202;
+    border-radius:5px;
+    padding-left: 30px;
+    padding-top:15px;
 }
 
 
@@ -38,6 +40,7 @@ section.sec1{
 section.sec2{
     grid-area: sec2;
     background-image: url(../img/bild1.start.jpg);
+    border-radius: 5px;
 }
 
 section.se1{
@@ -48,6 +51,10 @@ section.se2{
     grid-area: se2;
     font-family: 'Times New Roman', Times, serif;
     background-color: #d10202;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
 }
 
 @media screen and (max-width: 400px){
