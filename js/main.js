@@ -1,5 +1,5 @@
  document.querySelector(".fade-layer").addEventListener("click", showMenu)
-    
+
 document.querySelector("#nav-opener").addEventListener("click", showMenu)
 
 function showMenu() {
