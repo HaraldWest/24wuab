@@ -1,7 +1,4 @@
 
-* {
-    margin: 0;
-}
 
 #wrapper1{
     display: grid;
@@ -39,7 +36,7 @@ button{
     z-index: 10;
     font-size: 40px;
     padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -100,16 +97,15 @@ section.secc1{
     font-size: 20px;
     padding-left: 20px;
     padding-left: 20px;
-    padding-top: 40px;
 }
 
-section.secc2{
+div.secc2{
     grid-area: secc2;
     background-image: url(../img/bild1.start.jpg);
     border-radius: 5px;
 }
 
-section.sec1{
+div.sec1{
     grid-area: sec1;
     background-image: url(../img/pasta.webp);
     border-radius: 5px;
@@ -165,7 +161,7 @@ footer.ft2 p {
 
 
 
-section.se1{
+div.se1{
     grid-area: se1;
     border-radius: 5px;
     background-image: url(../img/om.jpeg);
@@ -178,7 +174,6 @@ section.se2{
     font-size: 25px;
     text-align: center;
     padding-left: 20px;
-    padding-top: 40px;
 }
 
 section.s1{
@@ -193,7 +188,7 @@ section.s1{
     padding-right: 20px;
 }
 
-section.s2{
+div.s2{
     grid-area: s2;
     background-image: url(../img/om.jpg);
 }
@@ -218,7 +213,7 @@ section.s2{
 }
 
 
-section.secti1{
+div.secti1{
     grid-area: secti1;
     background-color: #940d0d;
     display: flex;
@@ -230,7 +225,7 @@ section.secti1{
     font-size: 40px;
 }
 
-section.secti2{
+div.secti2{
     grid-area: secti2;
     background-color: #940d0d;
     display: flex;
@@ -242,7 +237,7 @@ section.secti2{
     font-size: 40px;
 }
 
-section.secti1 p{
+div.secti1 p{
     border: 2px solid black;
     background-color: red;
     text-decoration: none;
@@ -251,7 +246,7 @@ section.secti1 p{
 }
 
 
-section.secti2 p{
+div.secti2 p{
     border: 2px solid black;
     background-color: red;
     text-decoration: none;
@@ -424,7 +419,7 @@ footer.ft1 p {
 
 
 
-section.sectii1{
+div.sectii1{
     grid-area: sectii1;
     background-color: #940d0d;
     display: flex;
@@ -439,7 +434,7 @@ section.sectii1{
 
 
 
-section.sectii2{
+div.sectii2{
     grid-area: sectii2;
     background-color: #940d0d;
     display: flex;
@@ -451,7 +446,7 @@ section.sectii2{
     font-size: 40px;
 }
 
-section.sectii1 p{
+div.sectii1 p{
     border: 2px solid black;
     background-color: red;
     text-decoration: none;
@@ -460,7 +455,7 @@ section.sectii1 p{
 }
 
 
-section.sectii2 p{
+div.sectii2 p{
     border: 2px solid black;
     background-color: red;
     text-decoration: none;
@@ -577,7 +572,7 @@ section.section12{
         display:grid;
         height: min-content;
         grid-template-columns: 100%;
-        grid-template-rows: 150px 1fr 1fr 300px 1fr 150px;
+        grid-template-rows: 150px 1fr 1fr 450px 1fr 150px;
         grid-template-areas: 
         "hd"
         "secc1"
@@ -667,7 +662,7 @@ section.section12{
     header img {
         display: none;
     }
-    section.secti2 {
+    div.secti2 {
         display: none;
     }
 }
@@ -698,7 +693,7 @@ section.section12{
     header img {
         display: none;
     }
-    section.sectii2 {
+    div.sectii2 {
         display: none;
     }
 }
