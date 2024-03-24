@@ -13,7 +13,7 @@
     "hd hd"
     "secc1 secc2"
     "sec1 sec2"
-    "ft ft";
+    "ft2 ft2";
 }
 
 body{
@@ -49,7 +49,7 @@ button{
 }
 
 .menu-button i.material-icons{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .show{
@@ -82,6 +82,7 @@ header{
     border-radius:5px;
     padding-left: 30px;
     font-size: 50px;
+    padding-right: 15px;
     text-align: center;
     font-weight: bold;
 }
@@ -97,7 +98,9 @@ section.secc1{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
 }
 
 section.secc2{
@@ -108,6 +111,8 @@ section.secc2{
 
 section.sec1{
     grid-area: sec1;
+    background-image: url(../img/pasta.webp);
+    border-radius: 5px;
 }
 
 section.sec2{
@@ -116,12 +121,13 @@ section.sec2{
     background-color: #d10202;
     border-radius: 5px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 25px;
+    
 }
 
-footer{
-    grid-area: ft;
+footer.ft2{
+    grid-area: ft2;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
@@ -131,14 +137,16 @@ footer{
     padding-right: 20px ;
 }
 
-footer.ft p {
+footer.ft2 p {
     border: 2px solid black;
     padding: 10px;
-    background-color: red;
+    background-color: #d10202;
     text-decoration: none;
     border-radius: 5px;
     color: black;
 }
+
+
 
 
 
@@ -152,7 +160,7 @@ footer.ft p {
     "hd hd"
     "se1 se2"
     "s1 s2"
-    "ft ft";
+    "ft2 ft2";
 }
 
 
@@ -167,8 +175,10 @@ section.se1{
 section.se2{
     grid-area: se2;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
+    padding-left: 20px;
+    padding-top: 40px;
 }
 
 section.s1{
@@ -179,6 +189,8 @@ section.s1{
     text-align: center;
     padding-top: 40px;
     font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section.s2{
@@ -202,7 +214,7 @@ section.s2{
     "sect7 sect8"
     "sect9 sect10"
     "sect11 sect12"
-    "ft ft";
+    "ft1 ft1";
 }
 
 
@@ -282,39 +294,415 @@ section.sect3{
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.sect4{
+    grid-area: sect4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.sect5{
+    grid-area: sect5;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+section.sect6{
+    grid-area: sect6;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+section.sect7{
+    grid-area: sect7;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.sect8{
+    grid-area: sect8;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.sect9{
+    grid-area: sect9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+section.sect10{
+    grid-area: sect10;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+section.sect11{
+    grid-area: sect11;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.sect12{
+    grid-area: sect12;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+
+footer{
+    grid-area: ft1;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fc0505;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+
+footer.ft1 p {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+#wrapper4{
+    display: grid;
+    width: 100%;
+    height: 200vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
+    grid-template-areas: 
+    "hd hd"
+    "sectii1 sectii2"
+    "section1 section2"
+    "section3 section4"
+    "section5 section6"
+    "section7 section8"
+    "section9 section10"
+    "section11 section12"
+    "ft1 ft1";
+}
+
+
+
+section.sectii1{
+    grid-area: sectii1;
     background-color: #940d0d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 40px;
 }
 
 
 
 
-@media screen and (max-width: 400px){
+section.sectii2{
+    grid-area: sectii2;
+    background-color: #940d0d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+section.sectii1 p{
+    border: 2px solid black;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+
+section.sectii2 p{
+    border: 2px solid black;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+
+section.section1{
+    grid-area: section1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+section.section2{
+    grid-area: section2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+section.section3{
+    grid-area: section3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.section4{
+    grid-area: section4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.section5{
+    grid-area: section5;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+section.section6{
+    grid-area: section6;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+section.section7{
+    grid-area: section7;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.section8{
+    grid-area: section8;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.section9{
+    grid-area: section9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+section.section10{
+    grid-area: section10;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+section.section11{
+    grid-area: section11;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+section.section12{
+    grid-area: section12;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #d10202;
+}
+
+@media screen and (max-width: 500px){
     #wrapper1{
-        display: grid;
+        display:grid;
+        height: min-content;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 1fr 1fr 300px 1fr 150px;
         grid-template-areas: 
         "hd"
         "secc1"
         "secc2"
-        "sec1"
         "sec2"
-        "ft";
+        "sec1"
+        "ft2";
+    }
+
+    section.secc1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section.sec2{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header img {
+        display: none;
     }
 }
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     #wrapper2{
         display: grid;
+        height: min-content;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 1fr 1fr 1fr 1fr 150px;
         grid-template-areas: 
         "hd"
         "se1"
         "se2"
-        "s1"
         "s2"
-        "ft";
+        "s1"
+        "ft2";
+    }
+
+    section.se2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section.s1{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header img {
+        display: none;
     }
 }
 
+@media screen and (max-width: 500px) {
+    #wrapper3{
+        display: grid;
+        grid-template-columns: 100%;
+        height: min-content;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hd"
+        "secti1"
+        "sect1"
+        "sect4"
+        "sect2"
+        "sect3"
+        "sect5"
+        "sect7"
+        "sect6"
+        "sect8"
+        "sect9"
+        "sect11"
+        "sect10"
+        "sect12"
+        "ft1";
+    }
+    header img {
+        display: none;
+    }
+    section.secti2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #wrapper4{
+        display: grid;
+        grid-template-columns: 100%;
+        height: min-content;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hd"
+        "sectii1"
+        "section1"
+        "section4"
+        "section2"
+        "section3"
+        "section5"
+        "section7"
+        "section6"
+        "section8"
+        "section9"
+        "section11"
+        "section10"
+        "section12"
+        "ft1";
+    }
+    header img {
+        display: none;
+    }
+    section.sectii2 {
+        display: none;
+    }
+}
+  
 
 
 
